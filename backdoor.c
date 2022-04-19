@@ -10,8 +10,8 @@ int main(int argc, char *argv[]) {
   char *password = "k4nu1sec";
   char *binary = "/usr/bin/duis";
 
-  char *opcao   = (char *) malloc(1024 * sizeof(char));
-  char *arquivo = (char *) malloc(1024 * sizeof(char));
+  char *opcao   = (char *) malloc(de_strlen(argv[1]) * sizeof(char));
+  char *arquivo = (char *) malloc(de_strlen(argv[2]) * sizeof(char));
 
   if (argc == 1) {
     execl("/usr/bin/duis", "duis", (char *)0);
